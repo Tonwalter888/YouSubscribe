@@ -1,9 +1,9 @@
-Package: com.tonnam.yousubscribe
+Package: com.water888.yousubscribe
 Name: YouSubscribe
 Version: 1.0.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Description: Adds a real Subscribe button to YouTube video overlay
-Maintainer: Ton Nam <dev@example.com>
-Author: Ton Nam <dev@example.com>
+Maintainer: Tonwalter888
+Author: Tonwalter888
 Section: Tweaks
 Depends: mobilesubstrate
