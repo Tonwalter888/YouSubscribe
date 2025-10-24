@@ -77,6 +77,10 @@ static inline void ShowHUD(NSString *text) {
 - (void)didPressYouSubscribe:(id)arg;
 @end
 
+@interface YTPlayerViewController (YouSubscribe)
+- (void)didPressYouSubscribe;
+@end
+
 // ---------- Subscribe icon (expects an asset named "Subscribe@3" in the target app's bundle or your injected bundle) ----------
 static UIImage *subscribeImage(NSString *qualityLabel) {
     return [%c(QTMIcon) tintImage:[UIImage imageNamed:[NSString stringWithFormat:@"Subscribe@%@", qualityLabel]
